@@ -20,11 +20,11 @@ This app addresses that by helping users speak and pronounce critical emergency 
 - 📖 View full-sentence phonetic translations for clear pronunciation  
 - 📶 Works offline — lightweight and accessible  
 - 🎯 Designed to integrate AI feedback and emergency detection in future versions  
+- 🔐 Secured with phone number + OTP login (learning app) and email-authenticated upload (recording app)
 
 > ⚠️ Note: This demo includes only 2 target languages and a **limited set of 7 emergency sentences** to prevent replication.  
-> The full app currently supports **10 Indian languages** and includes **51 curated emergency sentences**, with more being added gradually.  
+> The full app(learning app) currently supports **10 Indian languages** and includes **51 curated emergency sentences**, with more being added gradually.  
 > The goal is to expand coverage to **all 22 official Indian languages** in future releases.
-
 
 
 ---
@@ -181,10 +181,20 @@ I am currently training the AI model using real voice recordings from native spe
 
 ## 🔐 Privacy & Security
 
-- Voice data is collected securely from trusted native speakers
-- No identifying metadata is stored
-- The recording app and dataset remain private to avoid misuse
-- Demo app excludes full language set and AI logic for safety
+- 🔐 The **recording app** uses **email/password Firebase Authentication** with device-based access control.  
+  Only pre-approved user emails (stored in Firestore) are permitted to upload voice recordings.
+
+- 📱 The **learning app** is secured using **Firebase Phone Authentication with OTP verification**, ensuring real-user access for mobile learning.
+
+- 🔐 Both apps have strict Firebase rules to prevent unauthorized read/write access.  
+  Even authenticated users can only access their permitted paths — all voice data is write-only and anonymized.
+
+- 🚫 No personal identifiers (e.g., names, IPs, locations) are attached to recordings.
+
+- 📂 Firebase credentials and storage buckets are kept secure and are **never exposed** in the public repo or APK.
+
+> ✅ These measures reflect best practices for beginner-level **cybersecurity** and responsible data handling in mobile app development.
+
 
 ---
 
