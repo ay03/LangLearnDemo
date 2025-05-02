@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:id="@+id/tv_terms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_and_conditions"
+            android:textSize="16sp"
+            android:padding="16dp"/>
+    </ScrollView>
+
+    <!-- Toggle Language Button -->
+    <Button
+        android:id="@+id/btn_toggle_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toggle_language"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Checkbox for accepting Terms -->
+    <CheckBox
+        android:id="@+id/checkbox_accept_terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/agree_terms"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Proceed Button (Initially disabled) -->
+    <Button
+        android:id="@+id/btn_proceed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/proceed"
+        android:enabled="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

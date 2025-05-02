@@ -1,0 +1,88 @@
+{
+  "sentences": [
+    {
+      "id": 1,
+      "english": "Hello",
+      "hindi": "नमस्ते",
+      "kannada": "ನಮಸ್ಕಾರ",
+      "marathi": "नमस्कार",
+      "phonetic_from_english_for_hindi": "Namaste",
+      "phonetic_from_english_for_kannada": "Namaskara",
+      "phonetic_from_english_for_marathi": "Namaskaar",
+      "phonetic_from_hindi_for_kannada": "नमस्कारा",
+      "phonetic_from_hindi_for_marathi": "नमस्कार"
+    },
+    {
+      "id": 2,
+      "english": "How are you?",
+      "hindi": "आप कैसे हैं?",
+      "kannada": "ನೀವು ಹೇಗಿದ್ದೀರಿ?",
+      "marathi": "तुम्ही कसे आहात?",
+      "phonetic_from_english_for_hindi": "Aap kaise hain?",
+      "phonetic_from_english_for_kannada": "Neenu hegiddiya?",
+      "phonetic_from_english_for_marathi": "Tumhi kase aahat?",
+      "phonetic_from_hindi_for_kannada": "नीनु हेगिद्धिया?",
+      "phonetic_from_hindi_for_marathi": "तुम्ही कसे आहात?"
+    },
+    {
+      "id": 3,
+      "english": "Thank you",
+      "hindi": "धन्यवाद",
+      "kannada": "ಧನ್ಯವಾದಗಳು",
+      "marathi": "धन्यवाद",
+      "phonetic_from_english_for_hindi": "Dhanyavaad",
+      "phonetic_from_english_for_kannada": "Dhanyavaadagalu",
+      "phonetic_from_english_for_marathi": "Dhanyavaad",
+      "phonetic_from_hindi_for_kannada": "धन्यवादगळु",
+      "phonetic_from_hindi_for_marathi": "धन्यवाद"
+    },
+    {
+      "id": 4,
+      "english": "Please",
+      "hindi": "कृपया",
+      "kannada": "ದಯವಿಟ್ಟು",
+      "marathi": "कृपया",
+      "phonetic_from_english_for_hindi": "Kripya",
+      "phonetic_from_english_for_kannada": "Dayavittu",
+      "phonetic_from_english_for_marathi": "Kripaya",
+      "phonetic_from_hindi_for_kannada": "दयवित्तु",
+      "phonetic_from_hindi_for_marathi": "कृपया"
+    },
+    {
+      "id": 5,
+      "english": "Yes",
+      "hindi": "हाँ",
+      "kannada": "ಹೌದು",
+      "marathi": "होय",
+      "phonetic_from_english_for_hindi": "Haan",
+      "phonetic_from_english_for_kannada": "Howdu",
+      "phonetic_from_english_for_marathi": "Ho",
+      "phonetic_from_hindi_for_kannada": "हौदु",
+      "phonetic_from_hindi_for_marathi": "हो"
+    },
+    {
+      "id": 6,
+      "english": "No",
+      "hindi": "नहीं",
+      "kannada": "ಇಲ್ಲ",
+      "marathi": "नाही",
+      "phonetic_from_english_for_hindi": "Nahi",
+      "phonetic_from_english_for_kannada": "Illa",
+      "phonetic_from_english_for_marathi": "Nahi",
+      "phonetic_from_hindi_for_kannada": "इल्ला",
+      "phonetic_from_hindi_for_marathi": "नाही"
+    },
+    {
+      "id": 7,
+      "english": "I’m sorry",
+      "hindi": "मुझे खेद है",
+      "kannada": "ಕ್ಷಮಿಸಿ",
+      "marathi": "माफ करा",
+      "phonetic_from_english_for_hindi": "Mujhe khed hai",
+      "phonetic_from_english_for_kannada": "Kshamisi",
+      "phonetic_from_english_for_marathi": "Maaf kara",
+      "phonetic_from_hindi_for_kannada": "क्षमिसि",
+      "phonetic_from_hindi_for_marathi": "माफ करा"
+    }
+  ]
+}

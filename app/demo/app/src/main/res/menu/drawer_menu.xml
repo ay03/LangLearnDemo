@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/menu_group_main">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_change_language"
+            android:icon="@drawable/language"
+            android:title="@string/change_language" />
+    </group>
+
+    <group android:id="@+id/menu_group_secondary">
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/logout" />
+    </group>
+</menu>

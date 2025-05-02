@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">डेमो</string>
+    <string name="demouser">डेमो उपयोगकर्ता</string>
+    <string name="terms_and_conditions">नियम और शर्तें...</string>
+    <string name="toggle_language">भाषा बदलें</string>
+    <string name="agree_terms">मैं नियम और शर्तों से सहमत हूँ</string>
+    <string name="proceed">आगे बढ़ें</string>
+    <string name="username_hint">उपयोगकर्ता नाम</string>
+    <string name="submit">जमा करें</string>
+    <string name="username_empty">कृपया एक उपयोगकर्ता नाम दर्ज करें</string>
+    <string name="username_entered">उपयोगकर्ता नाम दर्ज किया गया</string>
+    <string name="welcome_message">स्वागत है, %1$s!</string>
+    <string name="learning_mode">शिक्षा मोड</string>
+    <string name="emergency_mode">आपातकालीन मोड</string>
+    <string name="profile">प्रोफ़ाइल</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="select_language">एक भाषा चुनें जिसे आप सीखना चाहते हैं</string>
+    <string name="emergency_coming_soon">यह सुविधा जल्द ही जोड़ी जाएगी</string>
+    <string name="language_changed">भाषा बदल दी गई है</string>
+    <string name="change_language">भाषा बदलें</string>
+    <string name="language_english">अंग्रेज़ी</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="language_marathi">मराठी</string>
+    <string name="language_kannada">कन्नड़</string>
+    <string name="learn_same_lang_error">आप पहले से यह भाषा जानते हैं</string>
+    <string name="select_sentence">सीखने के लिए एक वाक्य चुनें</string>
+    <string name="phonetic_not_available">उच्चारण उपलब्ध नहीं है</string>
+    <string name="sentence_detail_title">वाक्य विवरण</string>
+    <string name="record">रिकॉर्ड</string>
+    <string name="to_be_implemented">अभी लागू नहीं किया गया है</string>
+</resources>
