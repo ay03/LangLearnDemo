@@ -15,14 +15,17 @@ This app addresses that by helping users speak and pronounce critical emergency 
 
 ## 📱 Demo Version Highlights
 
-- 🔤 Select your known language: English
-- 🗣️ Learn how to speak Hindi, Marathi, or Kannada emergency phrases
-- 🧩 Sentences are split into word-by-word lessons for phonetic clarity
-- 📶 Works offline — lightweight and accessible
-- 🎯 Designed to integrate AI feedback and emergency detection in future versions
+- 🔤 Select your known language: English  
+- 🗣️ Learn how to speak Hindi, Marathi, or Kannada emergency phrases  
+- 📖 View full-sentence phonetic translations for clear pronunciation  
+- 📶 Works offline — lightweight and accessible  
+- 🎯 Designed to integrate AI feedback and emergency detection in future versions  
 
-> ⚠️ Note: This demo includes only 2 target languages to protect against replication.  
-> The full app currently supports 10 Indian languages, with plans to scale to all 22.
+> ⚠️ Note: This demo includes only 2 target languages and a **limited set of 7 emergency sentences** to prevent replication.  
+> The full app currently supports **10 Indian languages** and includes **51 curated emergency sentences**, with more being added gradually.  
+> The goal is to expand coverage to **all 22 official Indian languages** in future releases.
+
+
 
 ---
 
@@ -55,7 +58,7 @@ Login Page (English)
 
 
 ---
-### 4. Sentence List
+### 4.  Language List
 
 
 Which Language to Learn  
@@ -63,7 +66,7 @@ Which Language to Learn
 
 ---
 
-### 5. Language List
+### 5. Sentence List
 
 Sentence List (English Interface)  
 ![Sentence List](assets/screenshots/demo-app/language_sentences/sentences_en.jpg)
