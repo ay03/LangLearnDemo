@@ -72,12 +72,12 @@ The AI model has two primary goals:
 
 ## 🧠 Status: Work in Progress
 
-- [x] Sentence tokenization for 10 Indian languages
-- [x] Audio preprocessing pipeline (MFCC, silence removal)
+- [x] Sentence breakdown UI
+- [x] Multi-language JSON structure
 - [x] Firebase-secured recording pipeline
-- [ ] Pronunciation scoring model (under training)
-- [ ] Threat detection NLP classifier
-- [ ] Offline inference engine (planned for integration)
+- [🟡] AI pronunciation model – **training ongoing**
+- [ ] Emergency phrase detection integration
+- [ ] Offline-first version with TTS/STT feedback
 
 ---
 
