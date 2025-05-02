@@ -55,19 +55,22 @@ Login Page (English)
 
 
 ---
-
-
 ### 4. Sentence List
+
 
 Which Language to Learn  
 ![Which Language](assets/screenshots/demo-app/language_sentences/which_lang_to_learn_en.jpg)
+
+---
+
+### 5. Language List
 
 Sentence List (English Interface)  
 ![Sentence List](assets/screenshots/demo-app/language_sentences/sentences_en.jpg)
 
 ---
 
-### 5. Phonetic Learning
+### 6. Phonetic Learning
 
 Word-by-Word Pronunciation (Marathi from English)  
 ![Phonetic Learning](assets/screenshots/demo-app/phonetic_learning/learning_marathi_from_english.jpg)
