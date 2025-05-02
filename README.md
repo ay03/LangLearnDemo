@@ -145,7 +145,7 @@ The APK is private for safety and privacy reasons, but here’s the full UI work
 
 ---
 
-## 🧠 AI Model (In Progress)
+## 🧠 AI Model (Training in Progress)
 
 Future versions will include:
 
@@ -161,6 +161,8 @@ Future versions will include:
 
 For full pipeline details → [ai-model/README.md](./ai-model/README.md)
 
+
+🚧 The model is **in training**, and early results are being tested on verified user inputs.
 ---
 
 ## 🔐 Privacy & Security
@@ -187,7 +189,7 @@ For full pipeline details → [ai-model/README.md](./ai-model/README.md)
 
 If you're a native speaker of any underrepresented Indian language and want to contribute voice samples securely, please reach out.
 
-📧 Email: [your.email@example.com]
+📧 Email: [yadav.akanksha03@gmail.com]
 
 ---
 
