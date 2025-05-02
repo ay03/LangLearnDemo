@@ -28,7 +28,7 @@ This app addresses that by helping users speak and pronounce critical emergency 
 
 ## 🖼️ Screenshots
 
-## Demo App – Screenshot Walkthrough
+### Demo App – Screenshot Walkthrough
 
 ### 1. Home Page
 
@@ -73,17 +73,14 @@ Word-by-Word Pronunciation (Marathi from English)
 
 👉 *To view all demo screenshots, visit the [`demo-app/`](assets/screenshots/demo-app/) folder.*
 
-
-
+---
 
 ## 🎙️ Recording App – Screenshot Walkthrough
 
-This companion app is used to collect native speaker recordings securely and efficiently.  
-The APK is private for safety and privacy reasons, but here’s the full UI workflow:
+This private companion app is used to collect native speaker recordings securely and efficiently.  
+While the APK and source code are not shared due to privacy concerns, these screenshots illustrate the complete data collection workflow.
 
 ---
-
-### 1. Login & Language Setup
 
 ### 1. Login & Language Setup
 
@@ -98,91 +95,101 @@ The APK is private for safety and privacy reasons, but here’s the full UI work
 
 ---
 
-### 2. Sentence Display
+### 2. Sentence Display & Recording
 
-**Sentence Display Before Recording**  
+**Sentence to be Spoken**  
 ![Sentence](assets/screenshots/recording-app/02_sentences.webp)
 
----
-
-### 3. Recording Process
-
-**Microphone Permission Prompt**  
-![Mic Permission](assets/screenshots/recording-app/04_record_permission.webp)
-
-**Recording Popup**  
+**Mic Popup for Recording**  
 ![Recording](assets/screenshots/recording-app/05_record.webp)
 
 ---
 
-### 4. Upload to Firebase
+### 3. Upload to Firebase
 
 **Send to Database**  
 ![Send to DB](assets/screenshots/recording-app/07_send_to_db.webp)
 
-
 ---
 
-> ⚠️ *The recording app is not open-sourced due to privacy and security of voice data. These screenshots illustrate the complete process for reviewers and collaborators.*
+> ⚠️ *The recording app is used strictly for private data collection. Voice recordings are anonymized and stored securely in Firebase. This section is for transparency with reviewers and collaborators only.*
 
 
 ---
 
 ## 🔍 Project Structure
+LangLearnDemo/                  
+├── app/                         # Source code of the Android demo app
+│   └── demo/                    # Android Studio project files
+│
+├── demo-apk/                    # Pre-built APK for testing
+│   └── app-debug.apk           
+│
+├── assets/                      
+│   ├── demo-sentences.json      # Sample JSON used in phonetic learning
+│   └── screenshots/             
+│       ├── demo-app/            # Demo app screenshots (UI walkthrough)
+│       └── recording-app/       # Recording app screenshots (private app)
+│
+├── ai-model/                    # AI architecture, pipeline & future model files
+│   └── README.md               
+│
+├── LICENSE                      # Open-source MIT license
+└── README.md                    # Main project documentation
+
 
 ---
 
 ## 🧠 AI Model (Training in Progress)
 
-Future versions will include:
+I am currently training the AI model using real voice recordings from native speakers across various Indian languages. The model is being developed to:
 
-### 🎙️ Pronunciation Scoring
-- Compares user recordings with native phoneme maps
-- Uses MFCC, TensorFlow, librosa, and optional Wav2Vec2
-- Scores pronunciation accuracy (target: ≥75%)
+### 🎙️ Score Pronunciation Accuracy
+- Analyze speech input using MFCCs, TensorFlow, and Librosa
+- Compare user pronunciation to native recordings
+- Score pronunciation in real time (≥75% required to progress)
 
 ### 🚨 Emergency Detection Mode
-- Real-time voice input
-- NLP model flags distress or harmful phrases in 10+ Indian languages
-- Alerts user if potential verbal threats are detected
+- Real-time voice input analysis
+- NLP model flags distress or harmful phrases in multiple Indian languages
+- Alerts the user and logs threat metadata
 
-For full pipeline details → [ai-model/README.md](./ai-model/README.md)
+📂 Full pipeline documentation → [ai-model/README.md](./ai-model/README.md)
 
-
-🚧 The model is **in training**, and early results are being tested on verified user inputs.
 ---
 
 ## 🔐 Privacy & Security
 
-- Voice data is collected via a private recording app from trusted contributors
+- Voice data is collected securely from trusted native speakers
 - No identifying metadata is stored
-- AI model and dataset are not open-sourced yet to prevent misuse
-- Demo excludes full language set and training logic intentionally
+- The recording app and dataset remain private to avoid misuse
+- Demo app excludes full language set and AI logic for safety
 
 ---
 
 ## 📅 Roadmap
 
-- [x] Sentence breakdown UI
-- [x] Multi-language JSON structure
-- [x] Firebase-secured recording pipeline
-- [ ] Train and validate AI pronunciation model
+- [x] Phonetic breakdown UI for sentence learning
+- [x] Language-linked JSON structure
+- [x] Firebase-secured voice data pipeline
+- [🟡] AI pronunciation model — **training ongoing**
 - [ ] Emergency phrase detection integration
-- [ ] Offline-first version with TTS/STT feedback
+- [ ] Offline-first version with TTS + scoring
 
 ---
 
 ## 🤝 Collaborate With Me
 
-If you're a native speaker of any underrepresented Indian language and want to contribute voice samples securely, please reach out.
+If you're a native speaker of an underrepresented Indian language and would like to contribute **authentic pronunciation samples** or collaborate on the AI side, feel free to reach out:
 
-📧 Email: [yadav.akanksha03@gmail.com]
+📧 Email: **[yadav.akanksha03@gmail.com]**
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License.  
-You may use or modify this project with attribution, but redistribution of proprietary datasets or trained models is prohibited.
+This project is licensed under the **MIT License**.  
+You may use or modify this project **with attribution**. Redistribution of collected datasets or trained models is strictly prohibited.
+
 
 
