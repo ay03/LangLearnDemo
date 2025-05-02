@@ -193,8 +193,7 @@ I am currently training the AI model using real voice recordings from native spe
 
 - 📂 Firebase credentials and storage buckets are kept secure and are **never exposed** in the public repo or APK.
 
-> ✅ These measures reflect best practices for beginner-level **cybersecurity** and responsible data handling in mobile app development.
-
+> ✅ Security features were implemented to protect user data and ensure privacy in both apps, using Firebase’s authentication and access control tools.
 
 ---
 
