@@ -32,60 +32,47 @@ This app addresses that by helping users speak and pronounce critical emergency 
 
 ### 1. Home Page
 
-Default Homepage View
-![Home Page](assets/screenshots/demo-app/01_home_page/home_screen_english.png)
+Default Homepage View  
+![Home Page](assets/screenshots/demo-app/home_page/home_page_en.jpg)
 
 ---
 
 ### 2. Language Selection & Terms
 
-Choose Your Known Language
-![Language Selection](assets/screenshots/demo-app/02_language_selection_terms/language_selection_english.png)
+Choose Your Known Language  
+![Language Selection](assets/screenshots/demo-app/language_selection_terms/language_select.jpg)
 
-Terms & Conditions in Selected Language
-![Terms](assets/screenshots/demo-app/02_language_selection_terms/terms_hindi.png)
-
----
-
-### 3. Sentence List Page
-
-Sentence List in Hindi
-![Sentence List HI](assets/screenshots/demo-app/03_sentence_list/sentence_list_hindi.png)
-
-Sentence List in Marathi
-![Sentence List MR](assets/screenshots/demo-app/03_sentence_list/sentence_list_marathi.png)
+Terms & Conditions (Hindi Example)  
+![Terms](assets/screenshots/demo-app/language_selection_terms/Terms_Condtions_hi.jpg)
 
 ---
 
-### 4. Login / OTP Flow
+### 3. Sentence List
 
-Username Entry
-![Username](assets/screenshots/demo-app/04_login_otp/username_entry.png)
+Which Language to Learn  
+![Which Language](assets/screenshots/demo-app/language_sentences/which_lang_to_learn_en.jpg)
 
-OTP Verification
-![OTP](assets/screenshots/demo-app/04_login_otp/otp_verification.png)
-
----
-
-### 5. Menu & Navigation
-
-Main Menu / Top Navigation
-![Menu](assets/screenshots/demo-app/05_menu/main_menu.png)
+Sentence List (English Interface)  
+![Sentence List](assets/screenshots/demo-app/language_sentences/sentences_en.jpg)
 
 ---
 
-### 6. Phonetic Learning Flow
+### 4. Login Flow
 
-Word-by-Word Breakdown: Hindi
-![Phonetic Hindi](assets/screenshots/demo-app/06_phonetic_learning/word_1_hindi.png)
-![Phonetic Hindi 2](assets/screenshots/demo-app/06_phonetic_learning/word_2_hindi.png)
-
-Word-by-Word Breakdown: Kannada
-![Phonetic Kannada](assets/screenshots/demo-app/06_phonetic_learning/word_1_kannada.png)
+Login Page (English)  
+![Login Page](assets/screenshots/demo-app/login_otp_username/login_page_en.jpg)
 
 ---
 
-👉 *To view the full set of screenshots, browse the [`assets/screenshots/demo-app/`](assets/screenshots/demo-app/) folder.*
+### 5. Phonetic Learning
+
+Word-by-Word Pronunciation (Marathi from English)  
+![Phonetic Learning](assets/screenshots/demo-app/phonetic_learning/learning_marathi_from_english.jpg)
+
+---
+
+👉 *To view all demo screenshots, visit the [`demo-app/`](assets/screenshots/demo-app/) folder.*
+
 
 
 
