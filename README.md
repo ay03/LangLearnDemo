@@ -134,25 +134,9 @@ While the APK and source code are not shared due to privacy concerns, these scre
 ---
 
 ## 🔍 Project Structure
-LangLearnDemo/                  
-├── app/                         # Source code of the Android demo app
-│   └── demo/                    # Android Studio project files
-│
-├── demo-apk/                    # Pre-built APK for testing
-│   └── app-debug.apk           
-│
-├── assets/                      
-│   ├── demo-sentences.json      # Sample JSON used in phonetic learning
-│   └── screenshots/             
-│       ├── demo-app/            # Demo app screenshots (UI walkthrough)
-│       └── recording-app/       # Recording app screenshots (private app)
-│
-├── ai-model/                    # AI architecture, pipeline & future model files
-│   └── README.md               
-│
-├── LICENSE                      # Open-source MIT license
-└── README.md                    # Main project documentation
 
+LangLearnDemo/ ├── app/ # Source code of the Android demo app │ └── demo/ # Android Studio project files │ ├── demo-apk/ │ └── app-debug.apk # Pre-built APK for testing │ ├── assets/ │ ├── demo-sentences.json # Sample JSON used in phonetic learning │ └── screenshots/ │ ├── demo-app/ # Demo app screenshots (UI walkthrough) │ └── recording-app/ # Recording app screenshots (private app) │ ├── ai-model/
+│ └── README.md # AI architecture, pipeline & training plan │ ├── LICENSE # Open-source MIT license └── README.md # Main project documentation
 
 ---
 
