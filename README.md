@@ -98,38 +98,41 @@ The APK is private for safety and privacy reasons, but here’s the full UI work
 
 ### 1. Login & Language Setup
 
-Login with Email
-![Login](assets/screenshots/recording-app/01_login.jpg)
+### 1. Login & Language Setup
 
-Choose Language
-![Choose Language](assets/screenshots/recording-app/03_choose_language.jpg)
+**Login with Email**  
+![Login](assets/screenshots/recording-app/01_login.webp)
 
-Choose Gender
-![Choose Gender](assets/screenshots/recording-app/06_choose_gender.jpg)
+**Choose Language**  
+![Choose Language](assets/screenshots/recording-app/03_choose_language.webp)
+
+**Choose Gender**  
+![Choose Gender](assets/screenshots/recording-app/06_choose_gender.webp)
 
 ---
 
 ### 2. Sentence Display
 
-Sentence Display Before Recording
-![Sentence](assets/screenshots/recording-app/02_sentences.jpg)
+**Sentence Display Before Recording**  
+![Sentence](assets/screenshots/recording-app/02_sentences.webp)
 
 ---
 
 ### 3. Recording Process
 
-Microphone Permission Prompt
-![Mic Permission](assets/screenshots/recording-app/04_record_permission.jpg)
+**Microphone Permission Prompt**  
+![Mic Permission](assets/screenshots/recording-app/04_record_permission.webp)
 
-Recording Popup
-![Recording](assets/screenshots/recording-app/05_record.jpg)
+**Recording Popup**  
+![Recording](assets/screenshots/recording-app/05_record.webp)
 
 ---
 
 ### 4. Upload to Firebase
 
-Send to Database
-![Send to DB](assets/screenshots/recording-app/07_send_to_db.jpg)
+**Send to Database**  
+![Send to DB](assets/screenshots/recording-app/07_send_to_db.webp)
+
 
 ---
 
