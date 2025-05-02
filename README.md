@@ -30,14 +30,7 @@ This app addresses that by helping users speak and pronounce critical emergency 
 
 ### Demo App – Screenshot Walkthrough
 
-### 1. Home Page
-
-Default Homepage View  
-![Home Page](assets/screenshots/demo-app/home_page/home_page_en.jpg)
-
----
-
-### 2. Language Selection & Terms
+### 1. Language Selection & Terms
 
 Choose Your Known Language  
 ![Language Selection](assets/screenshots/demo-app/language_selection_terms/language_select.jpg)
@@ -47,20 +40,30 @@ Terms & Conditions (Hindi Example)
 
 ---
 
-### 3. Sentence List
+### 2. Home Page
+
+Default Homepage View  
+![Home Page](assets/screenshots/demo-app/home_page/home_page_en.jpg)
+
+
+---
+
+### 3. Login Flow
+
+Login Page (English)  
+![Login Page](assets/screenshots/demo-app/login_otp_username/login_page_en.jpg)
+
+
+---
+
+
+### 4. Sentence List
 
 Which Language to Learn  
 ![Which Language](assets/screenshots/demo-app/language_sentences/which_lang_to_learn_en.jpg)
 
 Sentence List (English Interface)  
 ![Sentence List](assets/screenshots/demo-app/language_sentences/sentences_en.jpg)
-
----
-
-### 4. Login Flow
-
-Login Page (English)  
-![Login Page](assets/screenshots/demo-app/login_otp_username/login_page_en.jpg)
 
 ---
 
@@ -82,30 +85,37 @@ While the APK and source code are not shared due to privacy concerns, these scre
 
 ---
 
-### 1. Login & Language Setup
+### 1. Login 
 
 **Login with Email**  
 ![Login](assets/screenshots/recording-app/01_login.webp)
 
-**Choose Language**  
-![Choose Language](assets/screenshots/recording-app/03_choose_language.webp)
-
-**Choose Gender**  
-![Choose Gender](assets/screenshots/recording-app/06_choose_gender.webp)
-
 ---
 
-### 2. Sentence Display & Recording
+### 2. Sentence Display
 
 **Sentence to be Spoken**  
 ![Sentence](assets/screenshots/recording-app/02_sentences.webp)
+
+---
+
+### 3. Language Setup
+
+**Choose Language**  
+![Choose Language](assets/screenshots/recording-app/03_choose_language.webp)
+
+---
+### 4. Recording
 
 **Mic Popup for Recording**  
 ![Recording](assets/screenshots/recording-app/05_record.webp)
 
 ---
 
-### 3. Upload to Firebase
+### 5. Upload to Firebase
+
+**Choose Gender**  
+![Choose Gender](assets/screenshots/recording-app/06_choose_gender.webp)
 
 **Send to Database**  
 ![Send to DB](assets/screenshots/recording-app/07_send_to_db.webp)
