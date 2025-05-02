@@ -84,5 +84,5 @@ The AI model has two primary goals:
 ## 📬 Contact
 
 Want to collaborate or help test the model in your language?  
-Reach out at [your.email@example.com]
+Reach out at [yadav.akanksha03@gmail.com]
 
