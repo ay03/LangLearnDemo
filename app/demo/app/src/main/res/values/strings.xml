@@ -1,18 +1,27 @@
 <resources>
+    <!-- App Identity -->
     <string name="app_name">Demo</string>
     <string name="demouser">Demo User</string>
+
+    <!-- Terms and Conditions -->
     <string name="terms_and_conditions">Terms and Conditions...</string>
     <string name="toggle_language">Toggle Language</string>
     <string name="agree_terms">I agree to the Terms and Conditions</string>
     <string name="proceed">Proceed</string>
+
+    <!-- Username Input -->
     <string name="username_hint">Username</string>
     <string name="submit">Submit</string>
     <string name="username_empty">Please enter a username</string>
     <string name="username_entered">Username entered</string>
     <string name="welcome_message">Welcome, %1$s!</string>
+
+    <!-- Home Screen -->
     <string name="learning_mode">LEARNING MODE</string>
     <string name="emergency_mode">EMERGENCY MODE</string>
     <string name="emergency_coming_soon">This feature will soon be added</string>
+
+    <!-- Language Selection -->
     <string name="select_language">Select a Language to Learn</string>
     <string name="language_changed">Language changed</string>
     <string name="change_language">Change Language</string>
@@ -20,12 +29,16 @@
     <string name="language_hindi">Hindi</string>
     <string name="language_marathi">Marathi</string>
     <string name="language_kannada">Kannada</string>
-    <string name="profile">Profile</string>
-    <string name="logout">Logout</string>
     <string name="learn_same_lang_error">You already know this language</string>
+
+    <!-- Sentence Learning -->
     <string name="select_sentence">Select a sentence to learn</string>
     <string name="phonetic_not_available">Phonetic not available</string>
     <string name="sentence_detail_title">Sentence Details</string>
     <string name="record">Record</string>
     <string name="to_be_implemented">To be implemented</string>
+
+    <!-- Drawer Menu -->
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
 </resources>
