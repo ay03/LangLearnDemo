@@ -31,104 +31,33 @@ This app addresses that by helping users speak and pronounce critical emergency 
 
 ## 🖼️ Screenshots
 
-### Demo App – Screenshot Walkthrough
+## 📸 Demo App – Screenshot Gallery
 
-### 1. Language Selection & Terms
-
-Choose Your Known Language  
-![Language Selection](assets/screenshots/demo-app/language_selection_terms/language_select.jpg)
-
-Terms & Conditions (Hindi Example)  
-![Terms](assets/screenshots/demo-app/language_selection_terms/Terms_Condtions_hi.jpg)
-
----
-
-### 2. Home Page
-
-Default Homepage View  
-![Home Page](assets/screenshots/demo-app/home_page/home_page_en.jpg)
-
-
----
-
-### 3. Login Flow
-
-Login Page (English)  
-![Login Page](assets/screenshots/demo-app/login_otp_username/login_page_en.jpg)
-
-
----
-### 4.  Language List
-
-
-Which Language to Learn  
-![Which Language](assets/screenshots/demo-app/language_sentences/which_lang_to_learn_en.jpg)
-
----
-
-### 5. Sentence List
-
-Sentence List (English Interface)  
-![Sentence List](assets/screenshots/demo-app/language_sentences/sentences_en.jpg)
-
----
-
-### 6. Phonetic Learning
-
-Word-by-Word Pronunciation (Marathi from English)  
-![Phonetic Learning](assets/screenshots/demo-app/phonetic_learning/learning_marathi_from_english.jpg)
-
----
+| Section | Screenshot |
+|--------|------------|
+| **Language Selection** <br> _Which language do you want to learn?_ | ![Which Language](assets/screenshots/demo-app/language_sentences/which_lang_to_learn_en.jpg) |
+| **Sentence List** <br> _English Interface_ | ![Sentence List](assets/screenshots/demo-app/language_sentences/sentences_en.jpg) |
+| **Phonetic Learning** <br> _Word-by-word pronunciation (Marathi from English)_ | ![Phonetic Learning](assets/screenshots/demo-app/phonetic_learning/learning_marathi_from_english.jpg) |
 
 👉 *To view all demo screenshots, visit the [`demo-app/`](assets/screenshots/demo-app/) folder.*
 
 ---
 
-## 🎙️ Recording App – Screenshot Walkthrough
+## 🎙️ Recording App – Screenshot Gallery
 
 This private companion app is used to collect native speaker recordings securely and efficiently.  
-While the APK and source code are not shared due to privacy concerns, these screenshots illustrate the complete data collection workflow.
+While the APK and source code are not shared due to privacy concerns, the following screenshots illustrate the complete data collection workflow.
 
----
+| Step | Screenshot |
+|------|------------|
+| **Login with Email** | ![Login](assets/screenshots/recording-app/01_login.webp) |
+| **Sentence to be Spoken** | ![Sentence](assets/screenshots/recording-app/02_sentences.webp) |
+| **Choose Language** | ![Choose Language](assets/screenshots/recording-app/03_choose_language.webp) |
+| **Mic Popup for Recording** | ![Recording](assets/screenshots/recording-app/05_record.webp) |
+| **Choose Gender** | ![Choose Gender](assets/screenshots/recording-app/06_choose_gender.webp) |
+| **Send to Firebase** | ![Send to DB](assets/screenshots/recording-app/07_send_to_db.webp) |
 
-### 1. Login 
-
-**Login with Email**  
-![Login](assets/screenshots/recording-app/01_login.webp)
-
----
-
-### 2. Sentence Display
-
-**Sentence to be Spoken**  
-![Sentence](assets/screenshots/recording-app/02_sentences.webp)
-
----
-
-### 3. Language Setup
-
-**Choose Language**  
-![Choose Language](assets/screenshots/recording-app/03_choose_language.webp)
-
----
-### 4. Recording
-
-**Mic Popup for Recording**  
-![Recording](assets/screenshots/recording-app/05_record.webp)
-
----
-
-### 5. Upload to Firebase
-
-**Choose Gender**  
-![Choose Gender](assets/screenshots/recording-app/06_choose_gender.webp)
-
-**Send to Database**  
-![Send to DB](assets/screenshots/recording-app/07_send_to_db.webp)
-
----
-
-> ⚠️ *The recording app is used strictly for private data collection. Voice recordings are anonymized and stored securely in Firebase. This section is for transparency with reviewers and collaborators only.*
+> ⚠️ *The recording app is used strictly for private data collection. Voice recordings are anonymized and securely stored in Firebase. This section is included for transparency with reviewers and collaborators.*
 
 
 ---
