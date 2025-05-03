@@ -31,7 +31,7 @@ class LanguageAdapter(
         val language = languages[position]
         holder.languageTextView.text = language.name
 
-        // Handle click event for this item
+        // Handle click event for this items
         holder.itemView.setOnClickListener {
             onItemClick(language)
         }
