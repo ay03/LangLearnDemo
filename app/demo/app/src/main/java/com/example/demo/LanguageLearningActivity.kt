@@ -5,14 +5,12 @@ import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.MenuItem
-import android.widget.Button
-import android.widget.TextView
-import android.widget.Toast
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
+import androidx.core.content.edit
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
-import androidx.core.content.edit
 
 class LanguageLearningActivity : AppCompatActivity() {
 
@@ -26,13 +24,14 @@ class LanguageLearningActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        // Retrieve preferred language from shared preferences
         val prefs: SharedPreferences = getSharedPreferences("MyApp", MODE_PRIVATE)
         val selectedLanguage = prefs.getString("selectedLanguage", "en") ?: "en"
         LocaleHelper.setLocale(this, selectedLanguage)
 
         setContentView(R.layout.activity_language_learning)
 
-        // Initialize views
+        // Initialize UI elements
         tvWelcome = findViewById(R.id.tv_welcome_message)
         drawerLayout = findViewById(R.id.drawer_layout)
         toolbar = findViewById(R.id.toolbar)
@@ -40,34 +39,41 @@ class LanguageLearningActivity : AppCompatActivity() {
         btnLearningMode = findViewById(R.id.btn_learning_mode)
         btnEmergencyMode = findViewById(R.id.btn_emergency_mode)
 
+        // Set button labels from strings.xml
         btnLearningMode.text = getString(R.string.learning_mode)
         btnEmergencyMode.text = getString(R.string.emergency_mode)
 
+        // Display welcome message with user's name
         val username = prefs.getString("username", null) ?: getString(R.string.demouser)
         tvWelcome.text = getString(R.string.welcome_message, username)
 
+        // Setup toolbar and navigation drawer
         setSupportActionBar(toolbar)
         toolbar.setNavigationIcon(R.drawable.menu)
         toolbar.setNavigationOnClickListener {
             drawerLayout.open()
         }
 
+        // Handle navigation menu item selection
         navView.setNavigationItemSelectedListener { menuItem ->
             handleMenuItemClick(menuItem)
             drawerLayout.close()
             true
         }
 
+        // Launch language selection activity
         btnLearningMode.setOnClickListener {
             val intent = Intent(this, WhichLangActivity::class.java)
             startActivity(intent)
         }
 
+        // Placeholder for emergency mode
         btnEmergencyMode.setOnClickListener {
             Toast.makeText(this, getString(R.string.emergency_coming_soon), Toast.LENGTH_SHORT).show()
         }
     }
 
+    // Handle item clicks from the navigation drawer
     private fun handleMenuItemClick(menuItem: MenuItem) {
         when (menuItem.itemId) {
             R.id.nav_profile -> {
@@ -85,14 +91,10 @@ class LanguageLearningActivity : AppCompatActivity() {
         }
     }
 
+    // Show language selection dialog
     private fun showLanguageChangeDialog() {
-        val languages = arrayOf(
-            "English", "हिन्दी"
-        )
-
-        val codes = arrayOf(
-            "en", "hi"
-        )
+        val languages = arrayOf("English", "हिन्दी")
+        val codes = arrayOf("en", "hi")
 
         val builder = androidx.appcompat.app.AlertDialog.Builder(this)
         builder.setTitle(getString(R.string.change_language))
@@ -107,11 +109,12 @@ class LanguageLearningActivity : AppCompatActivity() {
         }
         builder.show()
     }
+
+    // Apply locale based on saved preference before attaching context
     override fun attachBaseContext(newBase: Context) {
         val prefs = newBase.getSharedPreferences("MyApp", MODE_PRIVATE)
         val langCode = prefs.getString("selectedLanguage", "en") ?: "en"
         val context = LocaleHelper.setLocale(newBase, langCode)
         super.attachBaseContext(context)
     }
-
 }
