@@ -134,13 +134,12 @@ I am currently collecting data and training a custom AI model using real voice r
 
 ## 📅 Roadmap
 
-- [x] ✅ Phonetic breakdown UI for sentence-based language learning
-- [x] ✅ Language-linked JSON structure for multilingual support
-- [x] ✅ Firebase-secured voice data collection pipeline
-- [ ] 🟡 AI pronunciation scoring model — training in progress
-- [ ] 🟡 Emergency phrase detection model — dataset tagging and early training
-- [ ] ⏳ Offline-first version with TTS playback and real-time pronunciation scoring
-
+- ✅ Phonetic breakdown UI for sentence-based language learning
+- ✅ Language-linked JSON structure for multilingual support
+- ✅ Firebase-secured voice data collection pipeline
+- 🟡 AI pronunciation scoring model — training in progress
+- 🟡 Emergency phrase detection model — dataset tagging and early training
+- ⏳ Offline-first version with TTS playback and real-time pronunciation scoring
 
 ---
 
