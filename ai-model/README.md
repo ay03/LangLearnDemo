@@ -1,88 +1,80 @@
-# AI Model – Phonetic Accuracy & Emergency Detection (In Progress)
+# 🧠 AI Model – Phonetic Accuracy & Emergency Detection (In Progress)
 
-This folder outlines the AI model pipeline being developed for the LangLearn project.  
-The model is currently not included for privacy and data protection reasons.
+Building a custom pronunciation feedback system and multilingual emergency detection AI.
 
----
+### Goals:
+- Match user pronunciation with ideal timing, stress, and frequency.
+- Support low-resource Indian languages using phoneme-based comparison.
 
-## 🎯 Objective
-
-The AI model has two primary goals:
-
-1. Phonetic Pronunciation Scoring  
-   Evaluate user pronunciation of emergency sentences in Indian languages with at least 75% phoneme-level accuracy.
-
-2. Emergency Phrase Detection  
-   Detect potential verbal threats or distress in multiple Indian languages to assist users in unfamiliar or hostile situations.
+### Current Work:
+- ✅ **Data collection** from native speakers via closed-source recording app.
+- 🛠️ **Training** in progress – inspired by Kaldi and DeepSpeech architectures.
+- 🧪 Libraries: `TensorFlow`, `librosa`, `phonemizer`, optional `Wav2Vec2`.
 
 ---
 
-## 🧱 Architecture (Planned)
+## 🚨 Emergency Detection Model (Early Development)
 
-### 🗣️ Pronunciation Grading Model
+### Input:
+- Live or recorded speech, transcribed via automatic speech recognition (ASR).
 
-- Input: Audio recordings from user
-- Pipeline:
-  - Convert audio to MFCC features
-  - Align with target sentence phoneme map
-  - Compare timing, stress, and frequency match
-- Approach:
-  - Custom scoring model inspired by Kaldi + DeepSpeech
-  - Focus on low-resource Indian languages
-- Libraries: TensorFlow, librosa, phonemizer, Wav2Vec2 (optional)
+### Output:
+- Real-time alerts for threatening or dangerous phrases.
 
-### 🚨 Emergency Detection Model
+### Status:
+- ✅ Dataset tagging for 10+ Indian languages is ongoing.
+- 🔬 Exploring fine-tuned transformers or RNNs for multi-label classification.
 
-- Input: Real-time speech (converted to text via ASR)
-- Detection: Multi-label classifier trained on tagged phrases in 10+ Indian languages
-- Model:
-  - Fine-tuned transformer or RNN model
-  - Optional real-time NLP threat scanning
-- Use Case:
-  - Alerts if user says or hears potentially dangerous phrases
-  - Works offline or in low-connectivity areas
+### Planned Features:
+- Works offline or in low-connectivity environments.
+- Responds via Bluetooth earphones (TTS) or on-screen phonetic guide.
 
 ---
 
 ## 🔐 Data Collection Approach
 
-- Voice recordings are collected via a closed-source recording app
-- Contributors are trusted individuals fluent in native Indian languages
-- All data is anonymized and securely stored in Firebase Storage
-- No sensitive audio or speaker metadata is shared
+- Audio data is collected through a **closed-source recording APK**.
+- Contributors are **trusted individuals** fluent in native Indian languages.
+- Data is:
+  - **Anonymized**
+  - **Stored securely** in Firebase Storage
+  - Labeled with a consistent format: `sentence_language_gender.3gp`
+- ❌ No sensitive speaker metadata is collected or shared.
 
 ---
 
-## ⚠️ Why Code & Model Aren't Public (Yet)
+## ⚠️ Why Code & Models Aren’t Public (Yet)
 
-- Audio data includes real voices of private individuals
-- Public release may risk identity leakage or misuse
-- Model weights are still under training, validation, and noise correction
-
----
-
-## ✅ Future Plan
-
-- Publish a sanitized version of the model with synthetic voice training
-- Open-source test datasets and evaluation scripts
-- Provide a REST API for pronunciation scoring and emergency phrase detection
-- Publish a research paper or technical whitepaper on findings
+- Involves **real voices of private individuals** – releasing prematurely risks identity leakage.
+- Models are undergoing **training, validation, and noise correction**.
+- Public release will follow once a **sanitized version** is prepared.
 
 ---
 
-## 🧠 Status: Work in Progress
+## ✅ Future Roadmap
+
+- 🗣️ Publish a sanitized version trained on synthetic or open-access voices.
+- 📊 Release test datasets and evaluation scripts.
+- 🌐 Provide a REST API for:
+  - Pronunciation scoring
+  - Emergency phrase detection
+- 📄 Publish a research paper or technical whitepaper on findings.
+
+---
+
+## 📊 Current Progress
 
 - [x] Sentence breakdown UI
 - [x] Multi-language JSON structure
-- [x] Firebase-secured recording pipeline
-- [🟡] AI pronunciation model – **training ongoing**
-- [ ] Emergency phrase detection integration
-- [ ] Offline-first version with TTS/STT feedback
+- [x] Firebase-secured recording app
+- [🟡] Pronunciation model – **training ongoing**
+- [🟡] Emergency classifier – **dataset prep in progress**
+- [ ] Offline-first app integration
+- [ ] Final TTS/STT deployment
 
 ---
 
 ## 📬 Contact
 
-Want to collaborate or help test the model in your language?  
-Reach out at [yadav.akanksha03@gmail.com]
-
+Want to contribute or test the model in your language?  
+📧 **yadav.akanksha03@gmail.com**
