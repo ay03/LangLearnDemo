@@ -92,7 +92,7 @@ LangLearnDemo/
 
 ## 🧠 AI Model (Training in Progress)
 
-I am currently collecting data and training a custom AI model using real voice recordings from native speakers of various Indian languages. This model powers two key features of the app:
+I am collecting data and training a custom AI model using real voice recordings from native speakers of various Indian languages. This model powers two key features of the app:
 
 ---
 
@@ -117,12 +117,12 @@ I am currently collecting data and training a custom AI model using real voice r
 ## 🔐 Privacy & Security
 
 - 🔐 The **recording app** uses **email/password Firebase Authentication** with device-based access control.  
-  Only pre-approved user emails (stored in Firestore) are permitted to upload voice recordings.
+  Only pre-approved emails (stored in Firestore) can upload recordings.
 
 - 📱 The **learning app** is secured using **Firebase Phone Authentication with OTP verification**, ensuring real-user access for mobile learning.
 
 - 🔐 Both apps have strict Firebase rules to prevent unauthorized read/write access.  
-  Even authenticated users can only access their permitted paths — all voice data is write-only and anonymized.
+  Authenticated users can only write to specific paths — all data is anonymized and write-only.
 
 - 🚫 No personal identifiers (e.g., names, IPs, locations) are attached to recordings.
 
@@ -145,9 +145,9 @@ I am currently collecting data and training a custom AI model using real voice r
 
 ## 🤝 Collaborate With Me
 
-If you're a native speaker of an underrepresented Indian language and would like to contribute **authentic pronunciation samples** or collaborate on the AI side, feel free to reach out:
+If you're a native speaker of an Indian language and want to contribute **authentic pronunciation samples** or help build multilingual AI tools, feel free to reach out:
 
-📧 Email: **[yadav.akanksha03@gmail.com]**
+📧 Email: yadav.akanksha03@gmail.com
 
 ---
 
@@ -155,6 +155,5 @@ If you're a native speaker of an underrepresented Indian language and would like
 
 This project is licensed under the **MIT License**.  
 You may use or modify this project **with attribution**. Redistribution of collected datasets or trained models is strictly prohibited.
-
 
 
