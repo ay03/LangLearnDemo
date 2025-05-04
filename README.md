@@ -92,17 +92,23 @@ LangLearnDemo/
 
 ## 🧠 AI Model (Training in Progress)
 
-I am currently training the AI model using real voice recordings from native speakers across various Indian languages. The model is being developed to:
+I am currently collecting data and training a custom AI model using real voice recordings from native speakers of various Indian languages. This model powers two key features of the app:
 
-### 🎙️ Score Pronunciation Accuracy
-- Analyze speech input using MFCCs, TensorFlow, and Librosa
-- Compare user pronunciation to native recordings
-- Score pronunciation in real time (≥75% required to progress)
+---
 
-### 🚨 Emergency Detection Mode
-- Real-time voice input analysis
-- NLP model flags distress or harmful phrases in multiple Indian languages
-- Alerts the user and logs threat metadata
+### 🎙️ Pronunciation Scoring Engine (In Progress)
+- Uses MFCCs, TensorFlow, and Librosa to analyze speech input
+- Compares user pronunciation to validated native recordings
+- Provides real-time feedback — users must reach ≥75% accuracy to progress
+- Focused on **low-resource Indian languages** and **phonetic correctness**
+
+---
+
+### 🚨 Emergency Detection Mode (Early Stage)
+- Analyzes real-time or uploaded audio
+- Converts speech to text using custom STT models
+- Flags distressing or dangerous phrases via NLP-based intent classification
+- Alerts the user with on-screen phonetic guidance and optional Bluetooth voice prompt
 
 📂 Full pipeline documentation → [ai-model/README.md](./ai-model/README.md)
 
